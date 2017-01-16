@@ -51,5 +51,9 @@ class MyStr(str): #<-----Replace xyz-make a new class, MyStr, that inherits from
         #YOUR CODE BELOW:
         #################
         
-        output_str = super(MyStr,self.lower()).replace(take_out, use_this)
-        return output_str.lower()
+        output_str = super(MyStr,self).lower().replace(take_out.lower(), use_this.lower())
+        return output_str
+
+
+##test=MyStr('aAaADD')
+##test.replace('AA','c')
