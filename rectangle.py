@@ -17,6 +17,7 @@ class Rectangle :
             self.height=height
         else :
             self.height=0
+        print('WOWOOOOOO')
 
         self.turtle=turtle.clone() #Make a new turtle object just for this instance so that drawings can be cleared.
         turtle.speed(0) #Make turtle move as fast as possible.
